@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question1">How old was King Tut when he became king?</string>
+    <string name="question2">How many people live in Egypt?</string>
+    <string name="question3">Which of the following cities are in Egypt?</string>
+    <string name="question4">Where is Egypt located?</string>
+    <string name="question5">What is the highest point in Egypt?</string>
+    <string name="question6">How many years ago was the Sphinx constructed?</string>
+    <string name="question7">What is the number of governorates in Egypt?</string>
+    <string name="Sol_q1A">9</string>
+    <string name="Sol_q1B">15</string>
+    <string name="Sol_q1C">25</string>
+    <string name="Sol_q2A">55 Million</string>
+    <string name="Sol_q2B">70 Million</string>
+    <string name="Sol_q2C">Add more ..</string>
+    <string name="Sol_q3A">Cairo</string>
+    <string name="Sol_q3B">Alexandria</string>
+    <string name="Sol_q3C">Roma</string>
+    <string name="Sol_q4A">southern Africa</string>
+    <string name="Sol_q4B">northern Africa</string>
+    <string name="Sol_q4C">western Asia</string>
+    <string name="Sol_q5A">Mt.Fuji</string>
+    <string name="Sol_q5B">Mt.Kilamanjaro</string>
+    <string name="Sol_q5C">Mt.Catherine</string>
+    <string name="Sol_q6A">2,000</string>
+    <string name="Sol_q6B">3,000</string>
+    <string name="Sol_q6C">4,000</string>
+    <string name="Sol_q7A">20</string>
+    <string name="Sol_q7B">26</string>
+    <string name="Sol_q7C">28</string>
+    <string name="Button_Submit">Submit</string>
+</resources>

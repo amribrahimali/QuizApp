@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/question1"
+            style="@style/QuestionsTextStyle"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q1s"
+                android:text="@string/Sol_q1A"
+                style="@style/SolutionTextStyle"/>
+
+            <RadioButton
+                android:text="@string/Sol_q1B"
+                style="@style/SolutionTextStyle"/>
+
+            <RadioButton
+                android:text="@string/Sol_q1C"
+                style="@style/SolutionTextStyle"/>
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/question2"
+            style="@style/QuestionsTextStyle"/>
+
+        <CheckBox
+            android:id="@+id/q2a"
+            android:text="@string/Sol_q2A"
+            style="@style/SolutionTextStyle"/>
+
+        <CheckBox
+            android:id="@+id/q2b"
+            android:text="@string/Sol_q2B"
+            style="@style/SolutionTextStyle"/>
+
+        <EditText
+            android:id="@+id/q2_field"
+            android:hint="@string/Sol_q2C"
+            android:inputType="textCapWords"
+            style="@style/SolutionTextStyle"/>
+
+        <TextView
+            android:text="@string/question3"
+            style="@style/QuestionsTextStyle"/>
+
+        <CheckBox
+            android:id="@+id/q3a"
+            android:text="@string/Sol_q3A"
+            style="@style/SolutionTextStyle"/>
+
+        <CheckBox
+            android:id="@+id/q3b"
+            android:text="@string/Sol_q3B"
+            style="@style/SolutionTextStyle"/>
+
+        <CheckBox
+            android:id="@+id/q3c"
+            android:text="@string/Sol_q3C"
+            style="@style/SolutionTextStyle"/>
+
+        <TextView
+            android:text="@string/question4"
+            style="@style/QuestionsTextStyle"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="@string/Sol_q4A"
+                style="@style/SolutionTextStyle"/>
+
+            <RadioButton
+                android:id="@+id/q4s"
+                android:text="@string/Sol_q4B"
+                style="@style/SolutionTextStyle"/>
+
+            <RadioButton
+                android:text="@string/Sol_q4C"
+                style="@style/SolutionTextStyle"/>
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/question5"
+            style="@style/QuestionsTextStyle"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="@string/Sol_q5A"
+                style="@style/SolutionTextStyle"/>
+
+            <RadioButton
+                android:text="@string/Sol_q5B"
+                style="@style/SolutionTextStyle"/>
+
+            <RadioButton
+                android:id="@+id/q5s"
+                android:text="@string/Sol_q5C"
+                style="@style/SolutionTextStyle"/>
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/question6"
+            style="@style/QuestionsTextStyle"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="@string/Sol_q6A"
+                style="@style/SolutionTextStyle"/>
+
+            <RadioButton
+                android:text="@string/Sol_q6B"
+                style="@style/SolutionTextStyle"/>
+
+            <RadioButton
+                android:id="@+id/q6s"
+                android:text="@string/Sol_q6C"
+                style="@style/SolutionTextStyle"/>
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/question7"
+            style="@style/QuestionsTextStyle"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:text="@string/Sol_q7A"
+                style="@style/SolutionTextStyle"/>
+
+            <RadioButton
+                android:text="@string/Sol_q7B"
+                style="@style/SolutionTextStyle"/>
+
+            <RadioButton
+                android:id="@+id/q7s"
+                android:text="@string/Sol_q7C"
+                style="@style/SolutionTextStyle"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="score"
+            android:text="@string/Button_Submit" />
+    </LinearLayout>
+</ScrollView>
